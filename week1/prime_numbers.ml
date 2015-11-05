@@ -1,6 +1,8 @@
 (*
-  1)  gcd that takes two non-negative integers n and m, and that returns the greatest common divisor of n and m, following Euclid's algorithm.
-  2)  multiple_upto that takes two non-negative integers n and r, and that checks whether n admits at least one divisor between 2 and r, returning a boolean.
+  1)  gcd that takes two non-negative integers n and m, and that returns the greatest common divisor of n and m, 
+  following Euclid's algorithm.
+  2)  multiple_upto that takes two non-negative integers n and r, and that checks whether n admits at least one 
+  divisor between 2 and r, returning a boolean.
   3)  is_prime a takes a non-negative integer n and checks whether it is a prime number.
 *)
 
