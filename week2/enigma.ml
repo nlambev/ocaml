@@ -9,3 +9,11 @@ If you multiply my grand-son age by four, you know how old I am. Now, if you exc
 
 let exchange k =
   ( k mod 10 ) * 10 + k / 10;;
+
+let is_valid_answer (grand_father_age, grand_son_age) : bool =
+  if grand_son_age * 4 = grand_father_age 
+  && ( exchange grand_father_age ) * 3 = (exchange grand_son_age)
+  then true 
+  else false;;
+
+(* 3) TBD *)
